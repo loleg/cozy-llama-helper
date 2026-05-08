@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Simplon Off" },
+      { name: "description", content: "Flips the lights off on AI" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Simplon Off" },
+      { property: "og:description", content: "Flips the lights off on AI" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Simplon Off" },
+      { name: "twitter:description", content: "Flips the lights off on AI" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2d2b7136-40c7-411c-b1e2-79da7c066d61/id-preview-7567b643--9548c3b2-07bd-4a2b-8b3c-c57ac930fcd6.lovable.app-1778250559097.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2d2b7136-40c7-411c-b1e2-79da7c066d61/id-preview-7567b643--9548c3b2-07bd-4a2b-8b3c-c57ac930fcd6.lovable.app-1778250559097.png" },
     ],
     links: [
       {
